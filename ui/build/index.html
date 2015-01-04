@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>angularproject</title>    
+    <link href="lib.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+    <script src="lib.js"></script>
+    <script src="templates.js"></script>
+    <script src="app.js"></script>
+   
+  </head>
+  <body ng-app="routerApp">
+    
+    
+    <div ng-controller="AppCtrl">
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="" ng-bing="update();" class="navbar-brand">Task Manager</a>
+          <div class="navbar-form navbar-left">
+            <input type="text" class="form-control col-lg-8"
+              placeholder="Search by name" ng-show="allTasks.length>0"
+              ng-model="query">
+          </div>
+        </div>
+      </div>
+      </div>
+   
+    
+    
+    <br> <br> <br>
+    <div class="alert alert-dismissable alert-danger" ng-show="isError">
+      <button type="button" class="close" data-dismiss="alert">X</button>
+      <p ng-bind="error">{{error}}</p>
+    </div>
+    <br>
+    <br>
+    
+     </div>
+
+      <div class="container" ui-view="">
+     
+      </div> 
+    
+      <div table-directive></div>
+  
+
+  </body>
+</html>

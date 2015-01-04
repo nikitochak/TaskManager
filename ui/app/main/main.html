@@ -1,0 +1,20 @@
+<div ng-controller="MainCtrl" >
+<h3>Navigator</h3>
+
+      <button class="btn btn-primary"><a ui-sref=".create" >Create</a></button>
+      <button class="btn btn-primary"><a ui-sref=".delete" >Finish or delete</a></button>
+    	<ul>
+    <li ng-repeat="thing in availableOptions">
+    {{thing}}
+    </li>
+
+</ul>
+    
+
+
+<div ui-view></div>
+</div>
+
+
+
+

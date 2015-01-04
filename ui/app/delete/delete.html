@@ -1,0 +1,17 @@
+<div ng-controller="deleteControllerJSON">
+<form class="form-horizontal">
+					<fieldset>
+						<legend>Mark as finished or delete all the tasks.</legend>
+
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<input type="button" class="btn btn-primary"
+									ng-disabled="allTasks.length==0" value="Finish"
+									ng-click="finish();" /> <input type="button"
+									class="btn btn-primary" value="Delete"
+									ng-disabled="allTasks.length==0" ng-click="remove();" />
+							</div>
+					</div>
+	</fieldset>
+</form>
+</div>

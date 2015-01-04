@@ -1,0 +1,28 @@
+
+<table class="table table-striped table-hover "
+			ng-show="allTasks.length>0" ng-controller="tableControllerJSON">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>Content</th>
+					<th>Deadline</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr  ng-repeat="task in allTasks|filter:query" ng-attr-class="{{task.isFinished && 'success' || 'info' }}">
+
+					<td><b>{{task.id}}</b></td>
+					<td><b>{{task.name}}</b></td>
+					<td><b>{{task.content}}</b></td>
+					<td ng-show="task.deadline!=undefined"><b>{{task.deadline}}</b></td>
+      				<td>
+      						<button class="btn btn-primary btn-xs" ng-disabled="task.isFinished" ng-click="finish(task.id);">Finish</button>
+      						<button class="btn btn-primary btn-xs" ng-click="remove(task.id);">Delete</button>
+     			 			
+    				</td>
+				</tr>
+
+		</tbody>
+</table>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+<script src="hello.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+
+	<div ng-controller="restControllerSimple">
+
+		<p ng-bind="response">{{response}}</p>
+		<br>
+
+	</div>
+	<br>
+	<div ng-controller="restControllerJSON">
+		<input ng-model="name" type="text">
+		<p ng-bind="name">{{name|reverse:true}}</p>
+		<br> <input ng-model="work" type="text">
+		<p ng-bind="work">{{work|reverse}}</p>
+		<br> <input type="button" ng-click="send();" value="Send">
+		<p ng-bind="response">{{responseJSON}}</p>
+		<br>
+	</div>
+
+	<div ng-controller="formController">
+		<form name="form" class="css-form" novalidate>
+			Name: <input type="text" ng-model="user.name" name="uName"
+				required="" /> <br /> E-mail: <input type="text"
+				ng-model="user.email" name="uEmail" required="" /> <br /> Gender:
+			<input type="radio" ng-model="user.gender" value="male" />male <input
+				type="radio" ng-model="user.gender" value="female" />female <br />
+	</div>
+
+	<input type="checkbox" ng-model="user.agree" name="userAgree"
+		required="" /> I agree:
+	<input ng-show="user.agree" type="text" ng-model="user.agreeSign"
+		required="" />
+	<br />
+
+	<div ng-show="!user.agree || !user.agreeSign">Please agree and
+		sign.</div>
+	</div>
+
+	<input type="button" ng-click="reset(form)" value="Reset" />
+	<input type="submit" ng-click="update(user)" value="Save" />
+	</form>
+	</div>
+
+	<form name="formMine" ng-controller="formController2">
+		Name: <input type="text" ng-model="user.name" name="uName" required="" />
+		<!--  <p ng-bind="user.name"></p>-->
+		<br /> E-mail: <input type="text" ng-model="user.email" name="uEmail"
+			required="" /> <br /> <input type="radio" ng-model="user.gender"
+			value="male" />male <input type="radio" ng-model="user.gender"
+			value="female" />female <br /> <input type="button" value="Submit"
+			ng-click="validate(user)" />
+
+		<div ng-show="formMine.$submitted || formMine.uName.$touched">
+			asdfasdfsdfasdf</div>
+		<div ng-show="isCorrect">Please enter all the necessary data.</div>
+		<ul>
+			<li ng-repeat="person in array">{{person.name}} with email
+				{{person.email}}</li>
+		</ul>
+	</form>
+</body>
+</html>

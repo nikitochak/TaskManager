@@ -1,0 +1,314 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-',
+1 verbose cli   '-encodedCommand',
+1 verbose cli   'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+1 verbose cli   '--save-dev',
+1 verbose cli   '-inputFormat',
+1 verbose cli   'xml',
+1 verbose cli   '-outputFormat',
+1 verbose cli   'text' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json gulp-ng-seed@0.0.0 No description
+6 warn package.json gulp-ng-seed@0.0.0 No repository field.
+7 warn package.json gulp-ng-seed@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-', null ]
+10 verbose cache add name=undefined spec="gulp-" args=["gulp-",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-',
+11 verbose parsed url   path: 'gulp-',
+11 verbose parsed url   href: 'gulp-' }
+12 verbose cache add [ 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+12 verbose cache add   null ]
+13 verbose cache add name=undefined spec="YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=" args=["YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+14 verbose parsed url   path: 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+14 verbose parsed url   href: 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=' }
+15 verbose cache add [ 'xml', null ]
+16 verbose cache add name=undefined spec="xml" args=["xml",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'xml',
+17 verbose parsed url   path: 'xml',
+17 verbose parsed url   href: 'xml' }
+18 verbose cache add [ 'text', null ]
+19 verbose cache add name=undefined spec="text" args=["text",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'text',
+20 verbose parsed url   path: 'text',
+20 verbose parsed url   href: 'text' }
+21 silly lockFile 22a13e15-gulp gulp-
+22 verbose lock gulp- C:\Users\Admin\AppData\Roaming\npm-cache\22a13e15-gulp.lock
+23 silly lockFile 7a8a78e7-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=
+24 verbose lock YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA= C:\Users\Admin\AppData\Roaming\npm-cache\7a8a78e7-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA.lock
+25 silly lockFile 42f7b70e-xml xml
+26 verbose lock xml C:\Users\Admin\AppData\Roaming\npm-cache\42f7b70e-xml.lock
+27 silly lockFile 372ea08c-text text
+28 verbose lock text C:\Users\Admin\AppData\Roaming\npm-cache\372ea08c-text.lock
+29 silly lockFile 22a13e15-gulp gulp-
+30 silly lockFile 22a13e15-gulp gulp-
+31 verbose addNamed [ 'gulp-', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile d550ac05-gulp gulp-@
+34 verbose lock gulp-@ C:\Users\Admin\AppData\Roaming\npm-cache\d550ac05-gulp.lock
+35 silly lockFile 7a8a78e7-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=
+36 silly lockFile 7a8a78e7-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=
+37 silly lockFile 372ea08c-text text
+38 silly lockFile 372ea08c-text text
+39 silly lockFile 42f7b70e-xml xml
+40 silly lockFile 42f7b70e-xml xml
+41 verbose addNamed [ 'xml', '' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile f0912f3a-xml xml@
+44 verbose lock xml@ C:\Users\Admin\AppData\Roaming\npm-cache\f0912f3a-xml.lock
+45 verbose addNamed [ 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+45 verbose addNamed   '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile 01f6baa4-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=@
+48 verbose lock YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=@ C:\Users\Admin\AppData\Roaming\npm-cache\01f6baa4-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA.lock
+49 silly addNameRange { name: 'gulp-', range: '*', hasData: false }
+50 verbose addNamed [ 'text', '' ]
+51 verbose addNamed [ null, '*' ]
+52 silly lockFile 47dc0c4c-text text@
+53 verbose lock text@ C:\Users\Admin\AppData\Roaming\npm-cache\47dc0c4c-text.lock
+54 silly addNameRange { name: 'xml', range: '*', hasData: false }
+55 silly addNameRange { name: 'YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=',
+55 silly addNameRange   range: '*',
+55 silly addNameRange   hasData: false }
+56 silly addNameRange { name: 'text', range: '*', hasData: false }
+57 verbose request where is /text
+58 verbose request registry https://registry.npmjs.org/
+59 verbose request id 55deb02bc91a8be7
+60 verbose url raw /text
+61 verbose url resolving [ 'https://registry.npmjs.org/', './text' ]
+62 verbose url resolved https://registry.npmjs.org/text
+63 verbose request where is https://registry.npmjs.org/text
+64 info trying registry request attempt 1 at 00:37:46
+65 http GET https://registry.npmjs.org/text
+66 verbose request where is /xml
+67 verbose request registry https://registry.npmjs.org/
+68 verbose url raw /xml
+69 verbose url resolving [ 'https://registry.npmjs.org/', './xml' ]
+70 verbose url resolved https://registry.npmjs.org/xml
+71 verbose request where is https://registry.npmjs.org/xml
+72 info trying registry request attempt 1 at 00:37:47
+73 http GET https://registry.npmjs.org/xml
+74 verbose request where is /gulp-
+75 verbose request registry https://registry.npmjs.org/
+76 verbose url raw /gulp-
+77 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-' ]
+78 verbose url resolved https://registry.npmjs.org/gulp-
+79 verbose request where is https://registry.npmjs.org/gulp-
+80 info trying registry request attempt 1 at 00:37:47
+81 http GET https://registry.npmjs.org/gulp-
+82 verbose request where is /YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=
+83 verbose request registry https://registry.npmjs.org/
+84 verbose url raw /YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=
+85 verbose url resolving [ 'https://registry.npmjs.org/',
+85 verbose url resolving   './YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA%3D' ]
+86 verbose url resolved https://registry.npmjs.org/YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA%3D
+87 verbose request where is https://registry.npmjs.org/YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA%3D
+88 info trying registry request attempt 1 at 00:37:47
+89 http GET https://registry.npmjs.org/YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA%3D
+90 http 404 https://registry.npmjs.org/gulp-
+91 verbose headers { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+91 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+91 verbose headers   'content-type': 'application/json',
+91 verbose headers   'cache-control': 'max-age=0',
+91 verbose headers   'content-length': '52',
+91 verbose headers   'accept-ranges': 'bytes',
+91 verbose headers   via: '1.1 varnish',
+91 verbose headers   age: '0',
+91 verbose headers   'x-served-by': 'cache-fra1238-FRA',
+91 verbose headers   'x-cache': 'MISS',
+91 verbose headers   'x-cache-hits': '0',
+91 verbose headers   'x-timer': 'S1419503889.587578,VS0,VE425',
+91 verbose headers   'keep-alive': 'timeout=10, max=50',
+91 verbose headers   connection: 'Keep-Alive' }
+92 silly registry.get cb [ 404,
+92 silly registry.get   { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+92 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+92 silly registry.get     'content-type': 'application/json',
+92 silly registry.get     'cache-control': 'max-age=0',
+92 silly registry.get     'content-length': '52',
+92 silly registry.get     'accept-ranges': 'bytes',
+92 silly registry.get     via: '1.1 varnish',
+92 silly registry.get     age: '0',
+92 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+92 silly registry.get     'x-cache': 'MISS',
+92 silly registry.get     'x-cache-hits': '0',
+92 silly registry.get     'x-timer': 'S1419503889.587578,VS0,VE425',
+92 silly registry.get     'keep-alive': 'timeout=10, max=50',
+92 silly registry.get     connection: 'Keep-Alive' } ]
+93 silly lockFile d550ac05-gulp gulp-@
+94 silly lockFile d550ac05-gulp gulp-@
+95 http 200 https://registry.npmjs.org/text
+96 silly registry.get cb [ 200,
+96 silly registry.get   { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+96 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+96 silly registry.get     etag: '"MDUYHC7HA24G6B9P442087HA"',
+96 silly registry.get     'content-type': 'application/json',
+96 silly registry.get     'cache-control': 'max-age=60',
+96 silly registry.get     'content-length': '909',
+96 silly registry.get     'accept-ranges': 'bytes',
+96 silly registry.get     via: '1.1 varnish',
+96 silly registry.get     age: '0',
+96 silly registry.get     'x-served-by': 'cache-ams4128-AMS',
+96 silly registry.get     'x-cache': 'MISS',
+96 silly registry.get     'x-cache-hits': '0',
+96 silly registry.get     'x-timer': 'S1419503889.604521,VS0,VE649',
+96 silly registry.get     vary: 'Accept',
+96 silly registry.get     'keep-alive': 'timeout=10, max=50',
+96 silly registry.get     connection: 'Keep-Alive' } ]
+97 silly addNameRange number 2 { name: 'text', range: '*', hasData: true }
+98 silly addNameRange versions [ 'text', [ '0.1.0' ] ]
+99 verbose addNamed [ 'text', '0.1.0' ]
+100 verbose addNamed [ '0.1.0', '0.1.0' ]
+101 silly lockFile cce2969b-text-0-1-0 text@0.1.0
+102 verbose lock text@0.1.0 C:\Users\Admin\AppData\Roaming\npm-cache\cce2969b-text-0-1-0.lock
+103 silly lockFile 2d34a100-ry-npmjs-org-text-text-0-1-0-tgz https://registry.npmjs.org/text/-/text-0.1.0.tgz
+104 verbose lock https://registry.npmjs.org/text/-/text-0.1.0.tgz C:\Users\Admin\AppData\Roaming\npm-cache\2d34a100-ry-npmjs-org-text-text-0-1-0-tgz.lock
+105 verbose addRemoteTarball [ 'https://registry.npmjs.org/text/-/text-0.1.0.tgz',
+105 verbose addRemoteTarball   '87f82a2e98eb5250ce0c397d46bfa34e299d1d63' ]
+106 info retry fetch attempt 1 at 00:37:48
+107 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-2256-_Gf_xZIV\registry.npmjs.org\text\-\text-0.1.0.tgz
+108 http GET https://registry.npmjs.org/text/-/text-0.1.0.tgz
+109 http 404 https://registry.npmjs.org/YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA%3D
+110 verbose headers { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+110 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 verbose headers   'content-type': 'application/json',
+110 verbose headers   'cache-control': 'max-age=0',
+110 verbose headers   'content-length': '52',
+110 verbose headers   'accept-ranges': 'bytes',
+110 verbose headers   via: '1.1 varnish',
+110 verbose headers   age: '0',
+110 verbose headers   'x-served-by': 'cache-fra1232-FRA',
+110 verbose headers   'x-cache': 'MISS',
+110 verbose headers   'x-cache-hits': '0',
+110 verbose headers   'x-timer': 'S1419503889.624879,VS0,VE710',
+110 verbose headers   'keep-alive': 'timeout=10, max=50',
+110 verbose headers   connection: 'Keep-Alive' }
+111 silly registry.get cb [ 404,
+111 silly registry.get   { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+111 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+111 silly registry.get     'content-type': 'application/json',
+111 silly registry.get     'cache-control': 'max-age=0',
+111 silly registry.get     'content-length': '52',
+111 silly registry.get     'accept-ranges': 'bytes',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     age: '0',
+111 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+111 silly registry.get     'x-cache': 'MISS',
+111 silly registry.get     'x-cache-hits': '0',
+111 silly registry.get     'x-timer': 'S1419503889.624879,VS0,VE710',
+111 silly registry.get     'keep-alive': 'timeout=10, max=50',
+111 silly registry.get     connection: 'Keep-Alive' } ]
+112 silly lockFile 01f6baa4-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=@
+113 silly lockFile 01f6baa4-uAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=@
+114 http 200 https://registry.npmjs.org/xml
+115 silly registry.get cb [ 200,
+115 silly registry.get   { date: 'Thu, 25 Dec 2014 10:38:10 GMT',
+115 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+115 silly registry.get     etag: '"AWBAXG8I1JMOAF6HXBPGTRG5M"',
+115 silly registry.get     'content-type': 'application/json',
+115 silly registry.get     'cache-control': 'max-age=60',
+115 silly registry.get     'content-length': '20232',
+115 silly registry.get     'accept-ranges': 'bytes',
+115 silly registry.get     via: '1.1 varnish',
+115 silly registry.get     age: '0',
+115 silly registry.get     'x-served-by': 'cache-fra1234-FRA',
+115 silly registry.get     'x-cache': 'HIT',
+115 silly registry.get     'x-cache-hits': '1',
+115 silly registry.get     'x-timer': 'S1419503889.612765,VS0,VE700',
+115 silly registry.get     vary: 'Accept',
+115 silly registry.get     'keep-alive': 'timeout=10, max=50',
+115 silly registry.get     connection: 'Keep-Alive' } ]
+116 silly addNameRange number 2 { name: 'xml', range: '*', hasData: true }
+117 silly addNameRange versions [ 'xml',
+117 silly addNameRange   [ '0.0.2',
+117 silly addNameRange     '0.0.3',
+117 silly addNameRange     '0.0.4',
+117 silly addNameRange     '0.0.5',
+117 silly addNameRange     '0.0.7',
+117 silly addNameRange     '0.0.8',
+117 silly addNameRange     '0.0.9',
+117 silly addNameRange     '0.0.10',
+117 silly addNameRange     '0.0.12',
+117 silly addNameRange     '1.0.0' ] ]
+118 verbose addNamed [ 'xml', '1.0.0' ]
+119 verbose addNamed [ '1.0.0', '1.0.0' ]
+120 silly lockFile d432028e-xml-1-0-0 xml@1.0.0
+121 verbose lock xml@1.0.0 C:\Users\Admin\AppData\Roaming\npm-cache\d432028e-xml-1-0-0.lock
+122 silly lockFile d44e1327-stry-npmjs-org-xml-xml-1-0-0-tgz https://registry.npmjs.org/xml/-/xml-1.0.0.tgz
+123 verbose lock https://registry.npmjs.org/xml/-/xml-1.0.0.tgz C:\Users\Admin\AppData\Roaming\npm-cache\d44e1327-stry-npmjs-org-xml-xml-1-0-0-tgz.lock
+124 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml/-/xml-1.0.0.tgz',
+124 verbose addRemoteTarball   'de3ee912477be2f250b60f612f34a8c4da616efe' ]
+125 info retry fetch attempt 1 at 00:37:48
+126 verbose fetch to= C:\Users\Admin\AppData\Local\Temp\npm-2256-_Gf_xZIV\registry.npmjs.org\xml\-\xml-1.0.0.tgz
+127 http GET https://registry.npmjs.org/xml/-/xml-1.0.0.tgz
+128 http 200 https://registry.npmjs.org/xml/-/xml-1.0.0.tgz
+129 silly lockFile d44e1327-stry-npmjs-org-xml-xml-1-0-0-tgz https://registry.npmjs.org/xml/-/xml-1.0.0.tgz
+130 silly lockFile d44e1327-stry-npmjs-org-xml-xml-1-0-0-tgz https://registry.npmjs.org/xml/-/xml-1.0.0.tgz
+131 silly lockFile d432028e-xml-1-0-0 xml@1.0.0
+132 silly lockFile d432028e-xml-1-0-0 xml@1.0.0
+133 silly lockFile f0912f3a-xml xml@
+134 silly lockFile f0912f3a-xml xml@
+135 http 200 https://registry.npmjs.org/text/-/text-0.1.0.tgz
+136 silly lockFile 2d34a100-ry-npmjs-org-text-text-0-1-0-tgz https://registry.npmjs.org/text/-/text-0.1.0.tgz
+137 silly lockFile 2d34a100-ry-npmjs-org-text-text-0-1-0-tgz https://registry.npmjs.org/text/-/text-0.1.0.tgz
+138 silly lockFile cce2969b-text-0-1-0 text@0.1.0
+139 silly lockFile cce2969b-text-0-1-0 text@0.1.0
+140 silly lockFile 47dc0c4c-text text@
+141 silly lockFile 47dc0c4c-text text@
+142 error 404 404 Not Found: gulp-
+142 error 404
+142 error 404 'gulp-' is not in the npm registry.
+142 error 404 You should bug the author to publish it
+142 error 404 It was specified as a dependency of 'gulp-ng-seed'
+142 error 404
+142 error 404 Note that you can also install from a
+142 error 404 tarball, folder, or http url, or git url.
+143 error System Windows_NT 6.1.7601
+144 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-" "-encodedCommand" "YwBvAG4AYwBhAHQALABzAGEAcwBzACwAbQBpAG4AaQBmAHkALQBjAHMAcwAsAHIAZQBuAGEAbQBlACwAYwBvAG4AbgBlAGMAdAA=" "--save-dev" "-inputFormat" "xml" "-outputFormat" "text"
+145 error cwd C:\Users\Admin\Sirma\AngularProject
+146 error node -v v0.10.33
+147 error npm -v 1.4.28
+148 error code E404
+149 verbose exit [ 1, true ]

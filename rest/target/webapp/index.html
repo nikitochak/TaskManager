@@ -1,0 +1,84 @@
+<!--
+    JBoss, Home of Professional Open Source
+    Copyright 2013, Red Hat, Inc. and/or its affiliates, and individual
+    contributors by the @authors tag. See the copyright.txt in the
+    distribution for a full listing of individual contributors.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<!-- Plain HTML page that kicks us into the app -->
+<!DOCTYPE html>
+<html>
+
+<head>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+<script src="start.js"></script>
+<script src="hello.js"></script>
+<script src="angular-resource.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+
+	<br>
+
+	<div ng-app="ngAppStrictDemo" ng-strict-di>
+
+
+
+		<div>
+			<p>
+				Name: <input type="text" ng-model="name">
+			</p>
+			<p ng-bind="name"></p>
+		</div>
+
+		<form action="response.html">
+			<input type="button" value="get the response from the rest">
+		</form>
+
+		<br>
+		<div ng-init="quantity=1;cost=5">
+
+			<p>Total in dollar: {{ quantity * cost }}</p>
+
+		</div>
+		<div ng-controller="GoodController1">
+			I can add: {{a}} + {{b}} = {{ a+b }}
+
+			<p>This renders because the controller does not fail to
+				instantiate, by using explicit annotation style (see script.js for
+				details)</p>
+		</div>
+
+		<div ng-controller="GoodController2">
+			Name: <input ng-model="name"><br /> Hello, {{name}}!
+
+			<p>This renders because the controller does not fail to
+				instantiate, by using explicit annotation style (see script.js for
+				details)</p>
+		</div>
+		<br> Search: <input ng-model="query"> <br>
+		<div ng-controller="namesController">
+
+			<ul>
+				<li ng-repeat="x in names| filter:query">{{ x.name + ', ' +
+					x.country }}</li>
+			</ul>
+
+		</div>
+	</div>
+
+
+
+</body>
+</html>
